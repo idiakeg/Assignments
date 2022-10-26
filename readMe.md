@@ -1,4 +1,4 @@
-# Week 2, task B
+# Week 3, task A and B
 
 ## Stack
 
@@ -10,6 +10,10 @@ Replit Link to Registration project: https://replit.com/@idiakegodspower/Glamcha
 
 Replit Link to live Registration site: https://Glamchat.idiakegodspower.repl.co
 
+Replit Link to Portfolio project: https://replit.com/@idiakegodspower/portfoliov1
+
+Replit Link to live Portfolio site: https://portfoliov1.idiakegodspower.repl.co
+
 ## Concepts Learned
 
 - Form validation
@@ -18,4 +22,4 @@ Replit Link to live Registration site: https://Glamchat.idiakegodspower.repl.co
 - use of icons
 - Different anchor tag attributes; target, referrer, noopener e.t.c
 - Use of images
-  \_ Creating responsive navbars
+- Creating responsive navbars
