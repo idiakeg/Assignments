@@ -1,0 +1,99 @@
+html {
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0 2rem;
+	background: #f7f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	min-height: 100vh;
+	background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+}
+
+.container {
+	padding: 30px;
+	background-color: #f3f3f3;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+	width: max(50vw, 800px);
+}
+
+.container > * {
+	margin: 0;
+}
+
+.container h1 {
+	font-size: 30rem;
+	text-align: center;
+	color: #f3cc09;
+}
+
+.container h1 + p,
+.container .msg span {
+	font-family: "Courgette", cursive;
+}
+
+.container h1 + p {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: -4rem;
+	margin-bottom: 3rem;
+}
+
+.container .msg {
+	font-size: 2.5rem;
+	font-family: "Roboto", sans-serif;
+	color: #515151;
+	text-align: center;
+}
+
+.container .msg span {
+	font-weight: bold;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(
+		90deg,
+		hsla(236, 100%, 8%, 1) 0%,
+		hsla(211, 100%, 28%, 1) 100%
+	);
+}
+
+.container .msg span a,
+.container .msg span a:link,
+.container .msg span a:visited {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+/* ======Media Query======*/
+@media screen and (max-width: 500px) {
+	.container {
+		width: 90%;
+	}
+
+	.container h1 {
+		font-size: 20rem;
+	}
+
+	.container h1 + p {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.container .msg {
+		font-size: 1.7rem;
+	}
+}
