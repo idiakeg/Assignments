@@ -1,0 +1,76 @@
+:root {
+	--bg-color: #2e2e2e;
+	--blue-color: #17a5f7;
+	--red-color: #ec3939;
+	--orange-color: #e69b12;
+	--green-color: #12a805;
+}
+
+body {
+	position: relative;
+	padding: 0 2rem;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #2e2e2e;
+}
+
+span {
+	position: absolute;
+	border: 2px solid white;
+	padding: 10px;
+	bottom: 2rem;
+	right: 2rem;
+}
+
+span a {
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	min-width: 300px;
+	margin: 70px auto;
+	display: grid;
+	gap: 0.4rem;
+	grid-template-areas:
+		"r r r r o o"
+		"g g g b b b";
+}
+
+main div {
+	height: 125px;
+}
+
+.red {
+	background-color: #ec3939;
+	grid-area: r;
+}
+.orange {
+	background-color: #e69b12;
+	grid-area: o;
+}
+.green {
+	background-color: #12a805;
+	grid-area: g;
+}
+.blue_container {
+	grid-area: b;
+	display: grid;
+	gap: 0.3rem;
+	padding: 0;
+}
+
+.blue_container > * {
+	height: auto;
+}
+
+.blue1 {
+	background-color: #17a5f7;
+}
+
+.blue2 {
+	background-color: var(--blue-color);
+}
