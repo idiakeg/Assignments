@@ -6,9 +6,9 @@ Stack: HTML, CSS, JAVASCRIPT
 
 ## Replit links
 
-Replit Link to project: https://replit.com/@idiakegodspower/Glamchat
+Replit Link to Registration project: https://replit.com/@idiakegodspower/Glamchat
 
-Replit Link to live site: https://Glamchat.idiakegodspower.repl.co
+Replit Link to live Registration site: https://Glamchat.idiakegodspower.repl.co
 
 ## Concepts Learned
 
@@ -16,3 +16,6 @@ Replit Link to live site: https://Glamchat.idiakegodspower.repl.co
 - Patterns
 - responsive designs
 - use of icons
+- Different anchor tag attributes; target, referrer, noopener e.t.c
+- Use of images
+  \_ Creating responsive navbars
