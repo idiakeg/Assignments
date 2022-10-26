@@ -1,15 +1,16 @@
 # Week 2, task B
 
-### Stack
+## Stack
 
 Stack: HTML, CSS, JAVASCRIPT
 
-### Replit links
+## Replit links
 
 Replit Link to project: https://replit.com/@idiakegodspower/Glamchat
+
 Replit Link to live site: https://Glamchat.idiakegodspower.repl.co
 
-### Concept Learned
+## Concepts Learned
 
 - Form validation
 - Patterns
