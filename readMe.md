@@ -1,18 +1,14 @@
-# Week 4, task A and B
+# Week 4
 
 ## Stack
 
-Stack: HTML, CSS, JAVASCRIPT
-
-## Replit links
-
-Replit Link to Grid and Flex project: https://replit.com/@idiakegodspower/zuriFEweek4task#flex.css
-
-Replit Link to live Grid and Flex site: https://zuriFEweek4task.idiakegodspower.repl.co
+Git and GitHub
 
 ## Concepts Learned
 
-- Use of flexbox to position/align items properly
-- Use of grid for entire page layout
-- Responsive web design
-- Working with svgs
+- Initializing a Git repository
+- Creating a Profile,md file in github
+- Basic git commands; init, commit, push, rm -r, --set-upstream origin etc
+- Branching
+- Contributing on projects
+- Merging conflicts
